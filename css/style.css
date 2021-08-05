@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  header star  */
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
+.row{
+   display: flex;
+   flex-wrap: wrap;
+   align-content: stretch;
+   justify-content: space-between;
+   padding: 5px 0px;
+}
+.logo{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.logo a{
+}
+.logo img{width: 80px;
+    height: 40px;
+}
+nav{
+    align-items: center;
+    padding: 5px 10px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: ;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+nav ul li{}
+nav ul li a{
+    display: block;
+    padding: 8px 8px 8px 12px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+nav ul li a span{
+}
+.botton{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.theme{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    padding: 15px 20px;
+    background-color: #FF6F70;
+    border: 2px solid #FF6F70;
+    border-radius: 5px;
+}
+/*  header end  */
+
+/* banner-section start */
+.banner-section{
+    padding: 100px 0px;
+}
+.banner-content{
+}    
+.content{
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: flex-start;
+}
+.col-2{
+flex-basis: 50%;
+max-width: 50%;
+justify-content: flex-start;  
+position: relative;
+}
+.banner-content h1{
+font-size: 50px;
+padding: 15px 0px;
+font-weight: 600;
+}
+.banner-content p{
+    font-size: 20px;
+    color: #0000004f;
+}
+
+.banner-content img{
+    max-width: 100%;
+}
+.text-right{
+}
+/* banner-section end */
+
+
+/* feature-section start*/
+.feature-section{}
+.section{padding: 40px 40px;
+}
+.box{}
+.demo{
+    text-align: center;
+    padding: 50px 0px;
+}
+.demo h2{}
+.demo p{
+    text-align: center;
+    font-size: 14px;
+    width: 500px;
+    margin: auto;
+    color: #464a4cb3;
+    line-height: 1.5em;
+    padding-top: 8px
+}
+.demo i{
+
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    align-content: stretch;
+}
+.feature-contant{
+    flex-basis: 24%;
+    max-width: 24%;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0px 4px;
+    padding: 10px 1px;
+   
+}
+.feature-contant img{
+    width: 100%;
+    height: auto;
+}
+.feature-contant p{
+    text-align: center;
+    padding: 10px 0px;
+}
+/* feature-section end*/
+
+
+/* blog-section start */
+
+.blog-section{
+    padding: 50px 0 140px 0px;
+}
+.container{}
+.box{
+}
+.quick{
+    text-align: center;
+    padding: 30px x;
+    padding: 30px 0px;
+}
+.quick h1{}
+.quick p{
+        padding: 5px 0px;
+}
+.box2{
+    display: flex;
+    text-align: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.col-3{
+    box-shadow: 0 0 5px #e6e3e394;
+    flex-basis: 30%;
+    max-width: 30%;
+    margin: 20px 18px;
+    background: #F5F5F5;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.icon{
+    padding:  20px;
+}
+.icon li{
+    font-size: 20px;
+    color: #ff6162;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #b0b0b06e;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+.icon li a{
+    color: #ff6162;
+}
+.icon h3{    
+    font-weight: 500;
+}
+.icon p{    padding: 5px 0px;
+    color: #0000006b;
+}
+
+
+footer{
+    text-align: center;
+    padding: 0px 0;
+    background: #292640;
+}
+.footer-contain{
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 0px;
+}
+.footer-contain h1{
+    color: #fff;
+    font-size: 60px;
+    line-height: 1.5em;
+    padding: 35px 0;
+    font-weight: 600;
+}
+
+.footer-contain a{
+    padding: 15px 25px;
+    background-color: #FF6162;
+    border: 0 #FF6162;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 0 0 2px white;
+}
